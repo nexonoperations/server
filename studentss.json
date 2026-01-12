@@ -1,0 +1,782 @@
+{
+  "students": [
+    {
+      "name": "Wian du Plessis",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "duplessisvalerie@yahoo.com"
+    },
+    {
+      "name": "Adriaan du Plessis",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "duplessisvalerie@yahoo.com"
+    },
+    {
+      "name": "Nicholis",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "aquido@absamail.co.za"
+    },
+    {
+      "name": "Charl",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "aquido@absamail.co.za"
+    },
+    {
+      "name": "Lana Fourie",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "anitaf.fourie@gmail.com"
+    },
+    {
+      "name": "Maya Steyn",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "cgmsteyn@gmail.com"
+    },
+    {
+      "name": "Chade Coetzer",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "arinda@pcinc.co.za"
+    },
+    {
+      "name": "Doumari",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "douwes76@gmail.com"
+    },
+    {
+      "name": "Lenique Vogel",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "mariskavogel@yahoo.com"
+    },
+    {
+      "name": "Dricus Naudé",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "vicus@3dtrust.co.za"
+    },
+    {
+      "name": "Ruben Pienaar",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "pienaar.la@gmail.com"
+    },
+    {
+      "name": "Esmerie Geldenhuys",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "geldenduysesme1@gmail.com"
+    },
+    {
+      "name": "Ewan Coetzee",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "coetzeec@gmail.com"
+    },
+    {
+      "name": "Gabbi Grant",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "monagrant2@gmail.com"
+    },
+    {
+      "name": "Jadyn Lamprecht",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "renelamprecht010@gmail.com"
+    },
+    {
+      "name": "Chloe Nell",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "corne.nell@cornenell.co.za"
+    },
+    {
+      "name": "Cara Grebe",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "egrebe92@gmail.com"
+    },
+    {
+      "name": "Morné Langenhoven",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "lilanie.lvw@gmail.com"
+    },
+    {
+      "name": "Lara van rensburg",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "zeldavr5@gmail.com"
+    },
+    {
+      "name": "Divan Roos",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "melissa7roos@gmail.com"
+    },
+    {
+      "name": "Zandré Roos",
+      "grade": 8,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "melissa7roos@gmail.com"
+    },
+    {
+      "name": "Janco Jacobs",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "antheajacobs1@gmail.com"
+    },
+    {
+      "name": "Anru nel",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "riekienel251@gmail.com"
+    },
+    {
+      "name": "Heinrich Tolmie",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "marius@g2r.co.za"
+    },
+    {
+      "name": "Dewald Tolmie",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "marius@g2r.co.za"
+    },
+    {
+      "name": "Arno Weber",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "lou-ann@verirad.co.za"
+    },
+    {
+      "name": "Carli Nel",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "liezl4@gmail.com"
+    },
+    {
+      "name": "Mikayla Nel",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "minnette@healthpark.co.za"
+    },
+    {
+      "name": "Julian van der Walt",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "lvanderwalt@tygies.co.za"
+    },
+    {
+      "name": "Luan Ferreira",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "denisef.anco@gmail.com"
+    },
+    {
+      "name": "Leandrè du Plessis (Wetenskap)",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "metco@vodamail.co.za"
+    },
+    {
+      "name": "Danè du Plessis (Wiskunde)",
+      "grade": 8,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "metco@vodamail.co.za"
+    },
+    {
+      "name": "Winette Vorster",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "juliennevorster1981@gmail.com"
+    },
+    {
+      "name": "Danika Daniels",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "biancadaniels09@gmail.com"
+    },
+    {
+      "name": "Monique Swanepoel",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "swanepoelr29@gmail.com"
+    },
+    {
+      "name": "Nika Meiring",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "danita.meiring@gmail.com"
+    },
+    {
+      "name": "Emma de Lange",
+      "grade": 8,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "carina@skilltechsa.co.za"
+    },
+    {
+      "name": "Zané de Lange",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "carina@skilltechsa.co.za"
+    },
+    {
+      "name": "Juann",
+      "grade": 9,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "jadaccounting@gmail.com"
+    },
+    {
+      "name": "Divan Barnard",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "ebarnard@ebcon.co.za"
+    },
+    {
+      "name": "Dané Barnard",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "ebarnard@ebcon.co.za"
+    },
+    {
+      "name": "Emma Labuschagne",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "elize.heron@gmail.com"
+    },
+    {
+      "name": "Mark DU BRUYN",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "elizelipa@gmail.com"
+    },
+    {
+      "name": "Nathan jacobs",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "elene@jbcon.co.za"
+    },
+    {
+      "name": "Marko Venter",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "dirkventer0606@gmail.com"
+    },
+    {
+      "name": "Louis Van Wyngaard",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "theresevanwyngaard@gmail.com"
+    },
+    {
+      "name": "Herman Van Wyngaard",
+      "grade": 9,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "theresevanwyngaard@gmail.com"
+    },
+    {
+      "name": "Stegmann",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "aejoone@gmail.com"
+    },
+    {
+      "name": "Catie Hoogendyk",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "elize.hoogendyk@gmail.com"
+    },
+    {
+      "name": "Marli kloppers",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "marizkakloppers@gmail.com"
+    },
+    {
+      "name": "Danelle kloppers",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "marizkakloppers@gmail.com"
+    },
+    {
+      "name": "Carlo",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "christine.steenkamp0@gmail.com"
+    },
+    {
+      "name": "Megan Pienaar",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "rianadj@hotmail.com"
+    },
+    {
+      "name": "Isabelle Pienaar",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "rianadj@hotmail.com"
+    },
+    {
+      "name": "Konrad Dippenaar",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "adriaandippenaar@gmail.com"
+    },
+    {
+      "name": "Lize",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "werdawiltz@gmail.com"
+    },
+    {
+      "name": "Inge",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "werdawiltz@gmail.com"
+    },
+    {
+      "name": "Kian Prinsloo",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "cprinsloo@macrobert.co.za"
+    },
+    {
+      "name": "Etienne van der Westhuizen",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "ronelvdw@hotmail.com"
+    },
+    {
+      "name": "Lané van der Westhuizen",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "ronelvdw@hotmail.com"
+    },
+    {
+      "name": "Lara Swart",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "4dewald@gmail.com"
+    },
+    {
+      "name": "Kaelyn Keyser",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "Aliciakeyser70@gmail.com"
+    },
+    {
+      "name": "Ruan Ferreira",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "myoptom@hotmail.com"
+    },
+    {
+      "name": "Josh Pieterse",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "pieterseerika75@gmail.com"
+    },
+    {
+      "name": "Lourens Meintjes",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "annelie.meintjes79@gmail.com"
+    },
+    {
+      "name": "Emily Aylward",
+      "grade": 9,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "sunetteaylward79@gmail.com"
+    },
+    {
+      "name": "Ethan Aylward",
+      "grade": 8,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "sunetteaylward79@gmail.com"
+    },
+    {
+      "name": "Derik Muller",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "maria@purplewordbox.co.za"
+    },
+    {
+      "name": "Mia Muller",
+      "grade": 9,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "maria@purplewordbox.co.za"
+    },
+    {
+      "name": "Ronan du toit",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "ilzedutoit08@gmail.com"
+    },
+    {
+      "name": "Reghard Gouws",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "chrilize@gmail.com"
+    },
+    {
+      "name": "Elaine Haycock",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "madhaycock@gmail.com"
+    },
+    {
+      "name": "Leané du Plessis",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "yvette@unknown.co.za"
+    },
+    {
+      "name": "Lara",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "Jacojdewet@gmail.com"
+    },
+    {
+      "name": "Steyn Verster",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "versters@out.co.za"
+    },
+    {
+      "name": "Dian de Wit",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "maryke@roboticsteelworks.co.za"
+    },
+    {
+      "name": "Kayla Borstlap",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "esborstlap@gmail.com"
+    },
+    {
+      "name": "Déwan Borstlap",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "esborstlap@gmail.com"
+    },
+    {
+      "name": "Amy George",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "brentjgeorge@gmail.com"
+    },
+    {
+      "name": "Estian Bezuidenhout",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "venessac@citadel.co.za"
+    },
+    {
+      "name": "Anrich Bezuidenhout",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "venessac@citadel.co.za"
+    },
+    {
+      "name": "Marius de Vos",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "anel.devos@yahoo.com"
+    },
+    {
+      "name": "Gerhard de Vos",
+      "grade": 8,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "anel.devos@yahoo.com"
+    },
+    {
+      "name": "Josua Marc",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "charlenemarx1@gmail.com"
+    },
+    {
+      "name": "Jana Marx",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "charlenemarx1@gmail.com"
+    },
+    {
+      "name": "Clarissa Kaufman",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "marlizekau@gmail.com"
+    },
+    {
+      "name": "SJ van Wyk",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "jcpvanwyk@absamail.co.za"
+    },
+    {
+      "name": "Bernard van Wyk",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "jcpvanwyk@absamail.co.za"
+    },
+    {
+      "name": "Ilze van Niekerk",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "barbaravn123@gmail.com"
+    },
+    {
+      "name": "christian huggett",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "leana.huggett@psg.co.za"
+    },
+    {
+      "name": "Khloe Buitendach",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "buitendachnelia@gmail.com"
+    },
+    {
+      "name": "Melissa Alberts",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "belinda@bljqs.co.za"
+    },
+    {
+      "name": "Hendrik Rheder",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "carinavdhorst@hotmail.com"
+    },
+    {
+      "name": "Stian van der Linde",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "evanderlinde@privatewealth.co.za"
+    },
+    {
+      "name": "Zandri van der Linde",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "evanderlinde@privatewealth.co.za"
+    },
+    {
+      "name": "Karla Jansen van Rensburg",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "therese@jvrp.co.za"
+    },
+    {
+      "name": "Miné Kriel",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "elanakriel@midrand-estates.co.za"
+    },
+    {
+      "name": "Zanica Grobler",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "grobler.anzuette@gmail.com"
+    },
+    {
+      "name": "Wanya Roestorff",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "karinr@attooh.co.za"
+    },
+    {
+      "name": "Arthur Gravett",
+      "grade": 9,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "gravettdina@gmail.com"
+    },
+    {
+      "name": "Lisa van Der Hoven",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "erizavdhoven@gmail.com"
+    },
+    {
+      "name": "kiara Grobbelaar",
+      "grade": 10,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "leone@umhlabawonke.co.za"
+    },
+    {
+      "name": "Eliana Fitzgerald",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "telanaf@alsgroup.co.za"
+    },
+    {
+      "name": "Jenna Trewin",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "eloisetrewin@gmail.com"
+    },
+    {
+      "name": "Regardt Lucas",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "sglucas@icloud.com"
+    },
+    {
+      "name": "Mila Badenhorst",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "ebadenhorst@broll.com"
+    },
+    {
+      "name": "Declan Barnard",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "christi.marais@yahoo.com"
+    },
+    {
+      "name": "méla swanepoel",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "Steenekamp.ti@gmail.com"
+    },
+    {
+      "name": "Nical Jacobsz",
+      "grade": 12,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "francien.jacobsz@yahoo.com"
+    },
+    {
+      "name": "Anel Verster",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "sunel@oostlaw.co.za"
+    },
+    {
+      "name": "Jonathan Botha",
+      "grade": 11,
+      "rate": 340,
+      "groupRate": 230,
+      "parentEmail": "botharensche@gmail.com"
+    }
+  ],
+  "sessions": []
+}
