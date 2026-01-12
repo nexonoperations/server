@@ -45,21 +45,29 @@ app.use(express.static(path.resolve(__dirname)));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Updated Transporter for Render compatibility
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 465,
-  secure: true, // Use SSL for port 465
+  secure: true,
   auth: {
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS
   },
   tls: {
-    rejectUnauthorized: false // Prevents local certificate errors on cloud servers
+    rejectUnauthorized: false
   },
-  connectionTimeout: 10000, // Wait 10 seconds before giving up
+  connectionTimeout: 10000,
   greetingTimeout: 10000
 });
+
+transporter.verify((error, success) => {
+  if (error) {
+    console.error("❌ SMTP VERIFY FAILED:", error);
+  } else {
+    console.log("✅ SMTP connection ready");
+  }
+});
+
 
 // ====================
 // Cloudinary Upload
@@ -557,6 +565,7 @@ connectToMongoDB()
     console.error("Failed to start server due to database error:", err);
     process.exit(1);
   });
+
 
 
 
