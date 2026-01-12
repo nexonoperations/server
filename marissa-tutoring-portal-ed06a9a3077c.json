@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "marissa-tutoring-portal",
+  "private_key_id": "ed06a9a3077ce8d128363eacd3e7bbe9fc6608c5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5wyA/R6ORKdoh\nZho+PpoGZPVrBgj+5tA6YDevvZ/zSOyHMNzemOZTrNNt4+/PAv0OFrLRcYLcaOE7\nLq+TXx8WCbOpK3xA3JUUZUGTdW+b2TcInqaC7YR82/TN+/M/nutnLNaq2QK2yvSm\nvhe9iEKZhnF1jRdf0M6qZv9SOnkfqcE+iHcFz7OK8Ku+goGWQsX7keJSXBMaDM6B\n1PmXAY+fSNSXOJDX3ufjKoBaTRk9M3m45pL/KZ03gypb3fXpDnCf8Mi79kwEmdcj\nNtIfEeBE6HUUbsz3EeamtqcUZk5QakJ3a2c2lS01hH98uIMkkBn7XJqApOjo4VRI\n3XO8v27dAgMBAAECggEAFzSsA5u0cD71M/ToVFxHq4LTMcJ4PzegTZqVekvK/n5e\npejRvrEFHPDbHMA7xfWOnULypb1zZotnj5gecN+SJ5OgsQJwrD2iFgEsNvqVrbdt\n65K+JF79jQeBRnYyBgGZULNGQeOINkOWWnomxxONllY4OEIe6GZSWvEw9hm95dl9\nfaEKJR02dSWK92yKGoBsP3G/Yt5aiSX/uKLLIbhTboM7weJXPogYxjeZ3CgC8X4H\nxHlyEVed9SE1PkaCuaaJfEdDaVh2BtreabJuDsvKcd5f/tfYA6L3S/q7RC7iY5rx\niAVrgCDov5prlyNyrKmDsa7uZdrUgIFJ9euYxBLmoQKBgQDfRYFShRXOQcY7aSJ/\nUub/hdG6MzyfPaBLbPBzVQSXgwwn2OErjfh6JA4kT8HMGG5uUd5ydPw32bi1dC8N\nvMcc/kbhOiztErk6yOCPtAZz1V8vqcBn4JdkB8ma6Usi5sI9R4kxyWXn9rG0/2vq\nCLmWZ62QcfRR0HmcEt5TJfM9hQKBgQDU/guvBSO5P2jpMIY0As16Oub/i9qF2zgL\n7TI0QREqDVUGY2hm6yzmT2/oem3PvSUQU8Npd0T2poR+/WREgWqIC1RsobdhJ7Ha\n55WWRlbmTU1dJKS8uFP1IUEvWUkuBiXPv9EWk/oN6hQzKS8mAPjOFb5bzSyHm03Y\ncVvxmhdfeQKBgQDJqYPHPwGVDH+6BZntGroeLYZjAghNZGI1/i2oXjAJkYoXK6Ml\nrdOyroI/dfJ7H84Ows+C3fs5juNwsYIWjF3j6B+pKtyNPQ4k9G8wHNB/K0gQSujI\namkTJp2H2BPPcFIc+1IFr/zlaULVUqbr+fl2yipQfzzH8N8Gg1xgCbUL6QKBgFXm\nS1H/0aOBdk8tmcJaKwKTxNvlTHFVsynkNK4sW77I97SG3PE9AbO0794jmiwBDXSj\nQ5lCV9bd22vXx9t1EkDhyN+y7OFLAAjYA1VC8wMYxA2/nIzcDkg7bC2rZb8hDZjW\ntH3VmjCIajMj9fbux2leDZK6ka3zLZcQSNOMoMaJAoGBAMEf9UKnyGD4RlRte/lG\nLQnqKo6HbR5aKyYwvOfx9Ejki/mAPHmcDgO1x4xGDTOvwpXrPT1AuQNlyF33pVcg\nS2OyL8ts4nJP4Sx/ZCeyW5Es5pw0pOK8udjqmoYYrird+x4HNmubuRY+Utf9Q8dx\nMKLzhQH1FH0xWDuttxJwoOlB\n-----END PRIVATE KEY-----\n",
+  "client_email": "nexon-invoice-builder@marissa-tutoring-portal.iam.gserviceaccount.com",
+  "client_id": "103045150692567720730",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nexon-invoice-builder%40marissa-tutoring-portal.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
