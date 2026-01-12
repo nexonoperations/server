@@ -15,7 +15,10 @@ import cors from 'cors';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000; 
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Server is live on port ${PORT}`);
+});
 const MONGO_URI = process.env.MONGO_URI;
 const DB_NAME = "NexonTutoringDB";
 const STUDENT_COLLECTION = "students";
@@ -35,21 +38,32 @@ cloudinary.config({
 
 const app = express();
 const upload = multer({ dest: 'uploads/' });
-app.use(cors(
-    {
-    origin: 'https://nexonoperations.github.io' // Replace with your actual Netlify URL
-}
-));
+// Remove any app.use(express.static...) or res.sendFile lines
+// Use this CORS setup:
+app.use(cors({
+    origin: 'https://nexonoperations.github.io',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true
+}));
 app.use(express.static(path.resolve(__dirname)));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Updated Transporter for Render compatibility
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: "smtp.gmail.com",
+  port: 465,
+  secure: true, // Use SSL for port 465
   auth: {
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS
-  }
+  },
+  tls: {
+    rejectUnauthorized: false // Prevents local certificate errors on cloud servers
+  },
+  connectionTimeout: 10000, // Wait 10 seconds before giving up
+  greetingTimeout: 10000
 });
 
 // ====================
@@ -542,6 +556,7 @@ connectToMongoDB().then(() => {
     console.error("Failed to start server due to database error:", err);
     process.exit(1);
 });
+
 
 
 
