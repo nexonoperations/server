@@ -545,12 +545,19 @@ app.get("/download-invoice/:studentId", async (req, res) => {
 });
 
 // Server startup
-connectToMongoDB().then(() => {
-    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-}).catch(err => {
+const PORT = process.env.PORT || 10000;
+
+connectToMongoDB()
+  .then(() => {
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  })
+  .catch(err => {
     console.error("Failed to start server due to database error:", err);
     process.exit(1);
-});
+  });
+
 
 
 
