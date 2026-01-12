@@ -36,7 +36,7 @@ const upload = multer({ dest: 'uploads/' });
 // Remove any app.use(express.static...) or res.sendFile lines
 // Use this CORS setup:
 app.use(cors({
-    origin: 'https://nexonoperations.github.io',
+    origin: ['https://nexonoperations.github.io',"http://localhost:3000"],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
@@ -374,9 +374,13 @@ app.post('/send-all-invoices', async (req, res) => {
         const sessions = await db.collection(SESSION_COLLECTION).find({}).toArray();
 
         const invoiceData = students.map(student => ({
-            student,
-            sessions: sessions.filter(s => s.studentId === student.id)
-        })).filter(data => data.sessions.length > 0 && data.student.parentEmail);
+  student,
+  sessions: sessions.filter(
+    s => String(s.studentId) === String(student.id)
+  )
+}))
+.filter(data => data.sessions.length > 0 && data.student.parentEmail);
+
 
         if (invoiceData.length === 0)
             return res.status(200).json({ success: true, sentCount: 0, message: "No students with sessions or valid emails found." });
@@ -565,6 +569,7 @@ connectToMongoDB()
     console.error("Failed to start server due to database error:", err);
     process.exit(1);
   });
+
 
 
 
