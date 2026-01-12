@@ -14,11 +14,6 @@ import cors from 'cors';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-const PORT = process.env.PORT || 10000; 
-app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Server is live on port ${PORT}`);
-});
 const MONGO_URI = process.env.MONGO_URI;
 const DB_NAME = "NexonTutoringDB";
 const STUDENT_COLLECTION = "students";
@@ -556,6 +551,8 @@ connectToMongoDB().then(() => {
     console.error("Failed to start server due to database error:", err);
     process.exit(1);
 });
+
+
 
 
 
